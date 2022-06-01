@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ecf0f3;
+  outline: none;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .calculator {
+  background-color: #ecf0f3;
+  padding: 15px;
+  border-radius: 30px;
+  -webkit-box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+          box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(4, 68px);
+}
+
+.container input {
+  grid-column: span 4;
+  height: 70px;
+  width: 272px;
+  background-color: #ecf0f3;
+  -webkit-box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+          box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 30px;
+  color: #464646;
+  font-size: 50px;
+  text-align: right;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.container button {
+  height: 48px;
+  width: 48px;
+  background-color: #ecf0f3;
+  -webkit-box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+          box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 50%;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.container .equal {
+  width: 115px;
+  border-radius: 40px;
+  background-color: #ecf0f3;
+  -webkit-box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+          box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.foter {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+}
+
+.foter h1 {
+  font-size: 3rem;
+  font-family: 'Satisfy', cursive;
+  letter-spacing: 2px;
+}
+
+.foter span {
+  font-size: 4rem;
+  text-decoration: underline;
+  font-family: 'Comforter', cursive;
+}
+
+#Screen {
+  font-size: 4rem;
+  text-align: center;
+  color: crimson;
+  text-shadow: 3px 4px 1px black;
+}
+
+#sun {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
